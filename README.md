@@ -13,7 +13,7 @@ A Jupyter Notebook (Python script) that reads EMG signals from the Backyard Brai
 
 ## Installation
 
-1. Download the script (https://github.com/PFAMI/EMG_video_game_controller.git : EMG.ipynb)
+1. Download the script (https://github.com/PFAMI/EMG_video_game_controller.git : EMG_controlling_Keyboard.ipynb)
 2. Install dependencies: pip install numpy matplotlib pyserial pyautogui
 3. Connect your Backyard Brains Human SpikerBox as instructed by BackyardBrains and identify the correct COM port.
 
