@@ -37,12 +37,10 @@ Check out the online tutorial : YOUTUBE
 - Define plotting parameters or disable visualization as needed.
 
 ## Notes
-- Tested with Backyard Brains SpikerBox hardware.
-- Tested with Windows 11, Python v3., pandas v….. 
+- Tested with Backyard Brains Human SpikerBox hardware, Windows 11, Python v3., pandas v….. 
 - Performance and latency depend on system configuration and game input handling.
 
 ## Citation
 
 If you use this work in your research or projects, please cite:
-
 PFAFF Michel (2025). EMG Video Game Controller using Backyard Brains SpikerBox. DOI: [XXX]
