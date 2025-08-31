@@ -1,15 +1,15 @@
 # EMG Video Game Controller
 
-A Jupyter Notebook (Python script) that reads EMG signals from the Backyard Brains SpikerBox in real time, computes the RMS envelope, and triggers keyboard events when EMG activity exceeds a customizable threshold. The system also provides real-time visualization of EMG activity, enabling to monitor signal quality and see when a keypress is generated.
+A Jupyter Notebook (Python script) that reads EMG signals from the Backyard Brains SpikerBox in real time, computes the Root Mean Square over a window size, and triggers keyboard events when EMG activity exceeds a customizable threshold. The system also provides real-time visualization of EMG activity, enabling to monitor signal quality and see when a keypress is generated.
 
 ## Features
-- Real-time EMG acquisition from Backyard Brains SpikerBox  
-- Filtering+RMS envelope computation for muscle activity detection  
+- **Real-time EMG acquisition** from Backyard Brains SpikerBox
+- **Filtering+RMS** computation for muscle activity detection
+- **Customizable RMS window size**  
 - **Customizable EMG threshold** for keypress triggering  
 - **Adaptable keyboard output**: choose any key to map (e.g., game shortcuts)  
 - **Serial port configuration**: specify correct COM port  
 - **Live visualization**: EMG activity plot with markers for keypresses  
-
 
 ## Installation
 
@@ -37,10 +37,10 @@ Check out the online tutorial : YOUTUBE
 - Define plotting parameters or disable visualization as needed.
 
 ## Notes
-- Tested with Backyard Brains Human SpikerBox hardware, Windows 11, Python v3., pandas v….. 
+- Tested with Backyard Brains Human SpikerBox hardware, Windows 11,Python: 3.12.7, pyserial: 3.5, numpy: 1.26.4, scipy: 1.15.3, pyautogui: 0.9.54, matplotlib: 3.10.3
 - Performance and latency depend on system configuration and game input handling.
 
 ## Citation
 
-If you use this work in your research or projects, please cite:
-PFAFF Michel (2025). EMG Video Game Controller using Backyard Brains SpikerBox. DOI: [XXX]
+If you use this script in your research, teaching, or projects, please cite:
+PFAFF Michel (2025). EMG Video Game Controller using Backyard Brains SpikerBox. DOI: https://doi.org/10.5281/zenodo.16942832
