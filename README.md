@@ -25,10 +25,9 @@ During execution, a pop-up window will display a real-time plot of EMG activity.
 
 You can open a word processor to verify that the script generates an output correctly, before to start your video-game.
 
-Check out the online tutorial : YOUTUBE
-
 ## Example
 * In World of Warcraft, you can bind the script’s output key to a spell shortcut, for instance to the one-click rotations assistant triggered by EMG activity
+* Example under : https://www.linkedin.com/posts/michel-pfaff_python-backyardbrains-emg-activity-7365829744363290624-woKd?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD2i_FwBvpLiac1xNhqpJNlmC3jTO37iENQ
 * More generally, any video game or application that responds to keyboard input can be controlled with EMG signals through this system.
 
 ## Customization
