@@ -31,9 +31,9 @@ You can open a word processor to verify that the script generates an output corr
 * More generally, any video game or application that responds to keyboard input can be controlled with EMG signals through this system.
 
 ## Customization
-- Adjust EMG threshold in the script with « threshold = 200 »
-- Change the output key (e.g., spacebar, number keys) with « key = 'a' »
-- Define plotting parameters or disable visualization as needed.
+- Adjust all configurations in the third cell, for example :
+  - EMG threshold in the script with « threshold = 200 »
+  - Change the output key (e.g., spacebar, number keys) with « key = 'a' »
 
 ## Notes
 - Tested with Backyard Brains Human SpikerBox hardware, Windows 11,Python: 3.12.7, pyserial: 3.5, numpy: 1.26.4, scipy: 1.15.3, pyautogui: 0.9.54, matplotlib: 3.10.3
