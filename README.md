@@ -1,4 +1,4 @@
-# EMG Video Game Controller
+# EMG Video Game Controller with Backyard Brains Human SpikerBox
 
 A Jupyter Notebook (Python script) that reads EMG signals from the Backyard Brains SpikerBox in real time, computes the Root Mean Square over a window size, and triggers keyboard events when EMG activity exceeds a customizable threshold. The system also provides real-time visualization of EMG activity, enabling to monitor signal quality and see when a keypress is generated.
 
